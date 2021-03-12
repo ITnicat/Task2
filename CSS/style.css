@@ -1,0 +1,408 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body {
+	font-family: Barlow+Condensed;
+}
+
+h1 {
+	font-family: Anton;
+}
+
+h2,h3 {
+	font-family: Barlow-Considered;
+}
+
+a {
+	text-decoration: none;
+}
+
+header#mainHeader {
+	width: 100%;
+	height: 750px;
+	position: relative;
+	background: url(../images/arxafon.jpg); 
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center; 
+}
+
+div#headerContainer {
+	width: 1100px;
+	height: 750px;
+	margin: auto;
+	position: relative;
+}
+
+div#headerTop {
+	width: 1100px;
+	height: 50px;
+	position: relative;
+}
+
+ul#ulTopLeft {
+	list-style-type: none;
+	display: inline-block;
+	float: left;
+}
+
+ul#ulTopLeft li {
+	display: inline-block;
+	line-height: 50px;
+	border-right: 1px solid #2B1700;
+	padding: 0px 10px;
+}
+
+ul#ulTopLeft li:first-child {
+	padding-left: 0px;
+}
+
+ul#ulTopLeft li:last-child {
+	border-right: 0;
+}
+
+ul#ulTopLeft li a {
+	text-decoration: none;
+	color: #2B1700;
+}
+
+ul#ulTopLeft li a:hover {
+	color: yellow;
+}
+
+div#topRight {
+	height: 50px;
+	position: relative;
+	float: right;
+}
+
+div.contactLogo {
+	width: 24px;
+	height: 24px;
+	margin-top: 10px;
+	float: left;
+}
+
+div.contactText {
+	height: 50px;
+	line-height: 50px;
+	float: left;
+	color: #D7BE69;
+}
+
+div.mailLogo {
+	width: 24px;
+	height: 24px;
+	margin-top: 10px;
+	float: left;
+	margin-left: 10px;
+}
+
+div.mailText {
+	height: 50px;
+	line-height: 50px;
+	float: left;
+	color: #D7BE69;
+}
+
+nav {
+	width: 100%;
+	height: 80px;
+	position: absolute;
+	background: rgba(0,0,0,0.5);
+	top: 50px;
+}
+
+
+div#navContainer {
+	width: 1100px;
+	height: 80px;
+	position: relative;
+	margin: auto;
+}
+
+div#navLogo {
+	font-family: Anton;
+	color: #D7BE69;
+	font-size: 30px;
+	line-height: 80px;
+	display: inline;
+	float: left;
+}
+
+ul#navRight {
+	list-style-type: none;
+	display: inline-block;
+	float: right; 
+}
+
+ul#navRight li {
+	display: inline-block;
+	line-height: 80px;
+	margin-left: 20px;
+}
+
+ul#navRight li a {
+	color: #D7BE69;
+	text-decoration: none;
+}
+
+ul#navRight li a:hover {
+	color: white;
+}
+
+div#headerText {
+	margin-top: 259px;
+	color: #D7BE69;
+}
+
+div#headerText h1 {
+	line-height: 80px;
+	font-size: 40px;
+	text-shadow: 5px 5px 10px #000000;
+}
+
+div#headerText h2 {
+	line-height: 60px;
+	font-size: 40px;
+	text-shadow: 5px 5px 10px #000000;
+}
+
+div#headerText p {
+	line-height: 40px;
+	font-size: 20px;
+	display: inline-block;
+	background-color: rgba(0,0,0,0.5);
+	padding-right: 20px;
+	text-shadow: 1px 1px 1px #000000;
+}
+
+div#headerButtons {
+	margin-top: 20px;
+}
+
+div#headerButtons a {
+	line-height: 60px;
+	border: 1px solid white;
+	display: inline-block;
+	color: white;
+	padding: 0px 20px;
+	transition: 0.5s ease;
+	text-shadow: 1px 1px 1px black;
+}
+
+div#headerButtons a:first-child:hover {
+	background-color: white;
+	color: black;
+}
+
+div#headerButtons a:last-child {
+	margin-left: 20px;
+	background: #e74c3c;
+}
+
+div#headerButtons a:hover {
+	background: transparent;
+}
+
+section.limitedSec {
+	width: 1100px;
+	position: relative;
+	margin: auto;
+	margin-top: 50px;
+	color: #D7BE69;
+}
+
+section.limitedSec h1, section.limitedSec h2 {
+	text-align: center;
+}
+
+section.limitedSec img {
+	width: 400px;
+	height: 400px;
+	margin-top: 50px;
+	border: 1px solid black;
+	padding: 10px;
+	box-sizing: border-box;
+	float: left;
+}
+
+section.limitedSec article {
+	width: 650px;
+	float: right;
+	margin-top: 20px;
+}
+
+section.limitedSec article div.iconBox {
+	width: 100px;
+	height: 100px;
+	margin: auto;
+}
+
+section.limitedSec article p {
+	margin-top: 20px;
+	text-align: justify;
+}
+
+section.unlimitedSec {
+	width: 100%;
+	position: relative;
+	background: black;
+}
+
+section.unlimitedSec div#menuContainer {
+	width: 1100px;
+	height: 620px;
+	position: relative;
+	margin: auto;
+	margin-top: 50px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+}
+
+section.unlimitedSec div#menuContainer img {
+	width: 300px;
+	height: 300px;
+	opacity: 0.5;
+	transition: all 0.5s ease-in-out;
+}
+
+section.unlimitedSec div#menuContainer img:hover {
+	opacity: 1;
+	transform: scale(1.05);
+}
+
+section.unlimitedSec div#menuContainer div#menuLinkContainer {
+	width: 600px;
+	height: 200px;
+	position: absolute;
+	border: 1px solid white;
+	margin-top: 190px;
+	text-align: center;
+}
+
+section.unlimitedSec div#menuContainer div#menuLinkContainer h1 {
+	color: #D7BE69;
+	text-align: center;
+	line-height: 60px;
+	text-shadow: 10px 10px 10px black;
+	margin-top: 30px;
+}
+
+section.unlimitedSec div#menuContainer div#menuLinkContainer a {
+	width: 240px;
+	height: 60px;
+	border: 1px solid white;
+	display: inline-block;
+	line-height: 60px;
+	font-size: 20px;
+	color: white;
+	margin-top: 30px;
+}
+
+section.unlimitedSec div#menuContainer div#menuLinkContainer a:hover {
+	background: orange;
+}
+
+section.limitedSec div#teamContainer {
+	width: 1200px;
+	margin: auto;
+	font-size: 20px;
+}
+
+section.limitedSec div#teamContainer div.teamChef {
+	width: 350px;
+	position: relative;
+	float: left;
+	margin-left: 30px;
+	overflow: hidden;
+}
+
+section.limitedSec div#teamContainer div.teamChef img {
+	width: 350px;
+	height: 500px;
+}
+
+section.limitedSec div#teamContainer div.teamChef div.teamHover {
+	width: 350px;
+	height: 500px;
+	background: black;
+	position: absolute;
+	top: 50px;
+	left: -350px;
+	transition: all 1s ease;
+	opacity: 0.7;
+}
+
+section.limitedSec div#teamContainer div.teamChef:hover div.teamHover {
+	left: 0;
+}
+
+section.limitedSec div#teamContainer div.teamChef div.teamHover div.teamText {
+	background: #b2bec3;
+	line-height: 60px;
+	margin-top: 200px;
+	color: black;
+	text-shadow: 15px 15px 15px black;
+}
+
+section.sonSec div.unlimitedSecContainer {
+	width: 1200px;
+	height: 600px;
+	position: relative;
+	margin: auto;
+	margin-top: 50px;
+}
+
+section.sonSec div.unlimitedSecContainer div.unlimitedSecLeft {
+	width: 470px;
+	height: 600px;
+	position: relative;
+	float: left;
+	background: black;
+	opacity: 0.7;
+	margin-left: 60px;
+}
+
+div.unlimitedSecLeft h1 {
+	font-size: 30px;
+	line-height: 80px;
+	text-shadow: 10px 10px 10px black;
+	text-align: center;
+	margin-top: 20px;
+}
+
+div.unlimitedSecLeft p {
+	width: 400px;
+	font-size: 15px;
+	line-height: 20px;
+	margin:auto;
+	text-align: center;
+	justify-content: center;
+	margin-top: 20px;
+}
+
+footer {
+	width: 100%;
+	height: 500px;
+	position: relative;
+	background: #2f3640;
+}
+
+footer div#footerContainer {
+	width: 1200px;
+	position: relative;
+	margin:auto;
+}
+
+div.footerBox {
+	width: 400px;
+	position: relative;
+	float: left;
+}
